@@ -1,7 +1,7 @@
 public class ParenthesesChecker {
 
     public static boolean isBalanced(String input) {
-        Stack<Character> stack = new Stack<>(80);
+        Stack2<Character> stack = new Stack2<>(80);
 
         for (char ch : input.toCharArray()) {
             if (ch == '(' || ch == '{' || ch == '[') {

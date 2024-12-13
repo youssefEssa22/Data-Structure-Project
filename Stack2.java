@@ -5,13 +5,13 @@ public class Stack2<T> {
     private T[] array;
 
     @SuppressWarnings("unchecked")
-    public Stack() {
+    public Stack2() {
         this.capacity = 5;
         this.array = (T[]) new Object[capacity];
     }
 
     @SuppressWarnings("unchecked")
-    public Stack(int capacity) {
+    public Stack2(int capacity) {
         this.capacity = capacity;
         this.array = (T[]) new Object[capacity];
     }
